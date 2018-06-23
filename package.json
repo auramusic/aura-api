@@ -1,0 +1,55 @@
+{
+  "name": "aura-interface",
+  "version": "1.0.0",
+  "description": "Aura is a descentralized music network where users can publish their music with millions of users around the world and earn royalties directly.",
+  "main": "aura.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuraBlockchain/aura.git"
+  },
+  "author": "Luis Cervantes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AuraBlockchain/aura/issues"
+  },
+  "homepage": "https://github.com/AuraBlockchain/aura#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.9.0",
+    "aura.db": "file:///home/syncmaster/Dev/Aura/aura.db",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^2.15.1",
+    "configstore": "^3.1.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "ffmetadata": "^1.5.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "ipfs": "^0.29.3",
+    "keygen": "^0.3.1",
+    "lodash": "^4.17.10",
+    "ls": "^0.2.1",
+    "minimist": "^1.2.0",
+    "python-shell": "^0.5.0",
+    "simple-git": "^1.96.0",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "bin": {
+    "aura-cli": "./aura.js"
+  }
+}
